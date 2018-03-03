@@ -8,13 +8,19 @@
 #ifndef TEST_CLASSES_GEEKSFORGEEKS_H_
 #define TEST_CLASSES_GEEKSFORGEEKS_H_
 
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 class GeeksForGeeks {
 
 public:
 	GeeksForGeeks();
 	virtual ~GeeksForGeeks();
 
-	int trappingRainWatter(int *arr, int n);
+	//Trapping Rain Water
+	int trappingRainWater(int *arr, int n);
 
 };
 
